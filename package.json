@@ -4,6 +4,7 @@
   "description": "## Overview This tool allows a user to export a scss file containing all the font, gradient, and color variables for a given document. Functionality could be expanded to include standard button styles and general component styles.",
   "main": "main.js",
   "dependencies": {
+    "har-validator": "5.1.5",
     "http": "^0.0.0",
     "request": "^2.88.0"
   },
@@ -11,7 +12,8 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "generate": "node frames.js"
   },
   "repository": {
     "type": "git",
